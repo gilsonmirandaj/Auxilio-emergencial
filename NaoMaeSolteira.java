@@ -1,10 +1,10 @@
-package classes;
+package main;
 
 public class NaoMaeSolteira extends NaoRecebeBolsa{
 	
 	NaoRecebeBolsa nrb = new NaoRecebeBolsa();
 	
-	private double rendaPerCapita=0.0;
+	private double rendaPerCapita = 0.0;
 
 	public double getRendaPerCapita() {
 		return rendaPerCapita;
@@ -15,7 +15,7 @@ public class NaoMaeSolteira extends NaoRecebeBolsa{
 	}
 	
 	void calculaPerCapita() {
-		rendaPerCapita = (nrb.getRendaTotal()/nrb.getNumDePessoas());
+		rendaPerCapita = (getRendaTotal()/getNumDePessoas());
 		
 	}
 

@@ -1,4 +1,4 @@
-package classes;
+package main;
 
 import java.util.Scanner;
 
@@ -69,34 +69,24 @@ public class Main {
 			System.out.println("3 - Trabalho informal");
 			System.out.println("4 - Desempregado, recebendo auxílio desemprego ou aposentado");
 			System.out.println("5 - Desempregado");
-			nrb.setTipoTrabalho(ler.next().charAt(0));
+			nm.setTipoTrabalho(ler.next().charAt(0));
 			
-			if(nrb.getTipoTrabalho() == '1' || nrb.getTipoTrabalho() == '2' || nrb.getTipoTrabalho() == '4') {
+			if(nm.getTipoTrabalho() == '1' || nm.getTipoTrabalho() == '2' || nm.getTipoTrabalho() == '4') {
 				System.out.println("Você não tem direito ao auxílio emergencial.");
 				System.exit(0);
 			} 
 			
-			System.out.println("\nQuantas pessoas moram na sua casa, incluindo você: ");
-			nrb.setNumDePessoas(ler.nextInt());
-			
 			System.out.println("Qual a renda total da sua família?");
-			nrb.setRendaTotal(ler.nextDouble());
+			nm.setRendaTotal(ler.nextDouble());
 			
-			//nm.calculaPerCapita();
+			System.out.println("\nQuantas pessoas moram na sua casa, incluindo você: ");
+			nm.setNumDePessoas(ler.nextInt());
 			
-			//System.out.println(nm.getRendaPerCapita());
+			nm.calculaPerCapita();
 			
-			
-			
+			System.out.println(nm.getRendaPerCapita());	
 	
 		}
-		
-		
-		
-		
-		
-		
-		
 		
 		ler.close();
 
