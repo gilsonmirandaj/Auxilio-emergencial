@@ -85,6 +85,11 @@ public class Main {
 			nm.calculaPerCapita();
 			
 			System.out.println(nm.getRendaPerCapita());	
+			
+			
+			
+			
+			
 	
 		}
 		
