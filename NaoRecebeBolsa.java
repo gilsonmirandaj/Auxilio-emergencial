@@ -1,6 +1,11 @@
 package classes;
 
 public class NaoRecebeBolsa extends Pessoa {
+	
+	/*Essa classe define o tipo de registro de trabalho.
+	 * Que define se a pessoa tem direito ou não
+	 * 
+	 */
 
 	private double rendaTotal;
 	private char tipoTrabalho;

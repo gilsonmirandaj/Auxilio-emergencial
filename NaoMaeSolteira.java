@@ -4,6 +4,10 @@ public class NaoMaeSolteira extends NaoRecebeBolsa{
 	
 	NaoRecebeBolsa nrb = new NaoRecebeBolsa();
 	
+	/*Essa classe define os atributos de renda, definindo assim se a pessoa tem direito ao auxílio
+	 * 
+	 */
+	
 	private double rendaPerCapita = 0.0;
 
 	public double getRendaPerCapita() {

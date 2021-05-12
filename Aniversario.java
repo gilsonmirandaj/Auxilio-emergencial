@@ -3,8 +3,14 @@ package classes;
 import java.util.Scanner;
 
 public class Aniversario {
+	
+	/*Esta classe tem como objetivo indicar quando a pessoa receberá o auxílio 
+	 * Essa informação é tirada baseada no mês de aniversário da pessoa
+	 * Calendário retirado do site da Caixa
+	 */
 
 	Scanner ler = new Scanner(System.in);
+	// Variáveç
 	private int mesAniver;
 
 	public int getMesAniver() {
@@ -14,6 +20,8 @@ public class Aniversario {
 	public void setMesAniver(int mesAniver) {
 		this.mesAniver = mesAniver;
 	}
+	
+	// Métodos
 
 	void leitura() {
 		System.out.println("==============================================================");

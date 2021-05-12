@@ -4,7 +4,13 @@ import java.util.Scanner;
 
 public class Main {
 
+	
+	/* Classe main, eesta classe contem todas as chamadas para o console
+	 * Aqui também contém a declaração dos objetos e a chamada dos métodos
+	 */
 	public static void main(String[] args) {
+		
+		// Declaração de objetos
 
 		Pessoa p = new Pessoa();
 		NaoMaeSolteira nm = new NaoMaeSolteira();
@@ -12,10 +18,14 @@ public class Main {
 		NaoRecebeBolsa nrb = new NaoRecebeBolsa();
 		Scanner ler = new Scanner(System.in);
 		
+		// Abertura do console
+		
 		System.out.println("========================================================");
-		System.out.println("= Descubra se você tem direito ao auxílio emergencial. =");
+		System.out.println("=                  JAVAUXILIA                          =");
+		System.out.println("=         Aproximando você dos seus direitos           =");
 		System.out.println("========================================================");
 
+		// Chamada dos métodos
 		p.getNome();
 		p.idade();
 		p.recebeBolsa();
@@ -36,6 +46,15 @@ public class Main {
 		aniver.leitura();
 		aniver.mes();
 
+		/* Fechamento e Créditos
+		System.out.println("========================================================");
+		System.out.println("=                   CRÉDITOS                           =");
+		System.out.println("=   Gilson, João, Júlia, Lucas, Vitória e Walisson     =");
+		System.out.println("=                Turma 23 - Generation Brasil          =");
+		System.out.println("========================================================");
+		*/
+
+		
 		ler.close();
 	}
 

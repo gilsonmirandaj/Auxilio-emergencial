@@ -1,6 +1,10 @@
 package classes;
 
 public class MaeSolteiraSemBF extends NaoRecebeBolsa {
+	/*Essa classe sem como objetivo definir se a pessoa se enquadra na categoria
+	 * Mãe Chefe de Família, para pessoas sem Bolsa Família
+	 * Esse critério define o valor do auxílio
+	 */
 	
 	private char filhos;
 	private char casada;

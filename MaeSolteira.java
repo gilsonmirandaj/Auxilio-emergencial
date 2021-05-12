@@ -1,6 +1,10 @@
 package classes;
 
 public class MaeSolteira extends BolsaFamilia{
+	/*Essa classe sem como objetivo definir se a pessoa se enquadra na categoria
+	 * Mãe Chefe de Família, para pessoas com Bolsa Família
+	 * Esse critério define o valor do auxílio
+	 */
 	
 	private char filhos, estadoCivil;
 
@@ -20,44 +24,4 @@ public class MaeSolteira extends BolsaFamilia{
 		this.estadoCivil = estadoCivil;
 	}
 	
-	/*void recebeAuxilio() {
-		System.out.println("\nVocê possui filhos menores de 18 anos?: ");
-		System.out.println("1 -  Sim");
-		System.out.println("2 -  Não");
-		setFilhos(ler.next().charAt(0));
-		
-		System.out.println("\nVocê é casada formalmente: ");
-		System.out.println("1 -  Sim");
-		System.out.println("2 -  Não");
-		setEstadoCivil(ler.next().charAt(0));
-		
-		if(getSexo() == 'F' && getFilhos() == '1' && getEstadoCivil() == '2') {
-			System.out.println("Você tem direito ao auxílio e o valor é de R$ 375,00.");
-		} 
-		else if(getNumDePessoas() >= 2 ) {
-			System.out.println("Você tem direito ao auxílio e o valor é de R$ 250,00.");
-		}
-		else {
-			System.out.println("Pessoas solteiras, sem filhos, não recebem bolsa família.");
-		}
-		
-	}*/
-	
-	void estadoCivil() {
-		
-		
-	}
-	
-	
-	//void recebeAuxilio() {
-		//char capturaSexo = getSexo();
-		//char capturaFilhos = getFilhos();
-		//char capturaEstado = getEstadoCivil();
-		
-		
-	//}
-	
-	
-	
-
 }

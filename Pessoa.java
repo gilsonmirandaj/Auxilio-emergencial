@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class Pessoa implements Interface{
 	
+	/*Essa classe tem o registro básico da pessoa
+	 * Ela puxa a interface e faz o registro geral da pessoa
+	 * 
+	 */
+	
+	
+	// Atributos
 	private String nome;
 	private int idade, numDePessoas;
 	private char sexo, recebeBolsa, filhos, estadoCivil;
@@ -20,7 +27,6 @@ public class Pessoa implements Interface{
 		this.recebeBolsa = recebeBolsa;
 	}
 	public String getNome() {
-		System.out.println("=============================");
 		System.out.println("\nDigite seu nome completo: ");
 		setNome(ler.next());
 		return nome;
@@ -67,6 +73,7 @@ public class Pessoa implements Interface{
 	}
 	
 	
+	// Métodos
 	public void idade() {
 		System.out.println("\n=============================");
 		System.out.println("\nDigite sua idade: ");
