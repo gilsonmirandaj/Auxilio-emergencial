@@ -18,5 +18,23 @@ public class NaoMaeSolteira extends NaoRecebeBolsa{
 		rendaPerCapita = (getRendaTotal()/getNumDePessoas());
 		
 	}
+	
+	void renda() {
+		System.out.println("\n==============================================================");
+		System.out.println("Qual a renda total da sua família?");
+		setRendaTotal(ler.nextDouble());
+		
+		System.out.println("\n==============================================================");
+		System.out.println("\nQuantas pessoas moram na sua casa, incluindo você: ");
+		setNumDePessoas(ler.nextInt());
+		
+		calculaPerCapita();
+		
+		if(getRendaPerCapita()>= 550 || getRendaTotal() >= 3300) {
+			System.out.println("\n==============================================================");
+			System.out.println("Você não tem direito ao auxílio emergencial.");
+			System.exit(0);
+		}
+	}
 
 }
