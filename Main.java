@@ -21,12 +21,12 @@ public class Main {
 		// Abertura do console
 		
 		System.out.println("========================================================");
-		System.out.println("=                  JAVAUXILIA                          =");
-		System.out.println("=         Aproximando você dos seus direitos           =");
+		System.out.println("=                   JAVAUXILIA                         =");
+		System.out.println("=           Informando você dos seus direitos          =");
 		System.out.println("========================================================");
 
 		// Chamada dos métodos
-		p.getNome();
+		p.nome();
 		p.idade();
 		p.recebeBolsa();
 
@@ -36,7 +36,8 @@ public class Main {
 			p.recebeAuxilio();
 
 		} else {
-
+			
+			p.sexo();
 			nrb.tipoTrabalho();
 			nm.renda();
 			p.recebeAuxilio();

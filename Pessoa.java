@@ -27,8 +27,6 @@ public class Pessoa implements Interface{
 		this.recebeBolsa = recebeBolsa;
 	}
 	public String getNome() {
-		System.out.println("\nDigite seu nome completo: ");
-		setNome(ler.next());
 		return nome;
 	}
 	public void setNome(String nome) {
@@ -74,6 +72,11 @@ public class Pessoa implements Interface{
 	
 	
 	// Métodos
+	
+	public void nome() {
+		System.out.println("\nDigite seu nome completo: ");
+		setNome(ler.next());
+	}
 	public void idade() {
 		System.out.println("\n=============================");
 		System.out.println("\nDigite sua idade: ");
