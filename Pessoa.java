@@ -1,9 +1,12 @@
 package classes;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-public class Pessoa  implements Interface {
+public class Pessoa implements Interface {
 	
+
 	// Atributos
 	private String nome;
 	private int idade, numDePessoas;
@@ -108,6 +111,20 @@ public class Pessoa  implements Interface {
 	
 	
 	public void recebeAuxilio() {
+		//Collections col = new Collections();
+		
+		String valorMS = "Você tem direito ao auxílio e o valor é de R$ 375,00." ;
+		String valorP2 = "Você tem direito ao auxílio e o valor é de R$ 250,00.";
+		String valorSBF = "Pessoas solteiras, sem filhos, não recebem bolsa família.";
+		String valorP1 = "Você tem direito ao auxílio e o valor é de R$ 150,00.";
+	 
+		List<String> valores = new ArrayList<>();
+		valores.add(valorMS);
+		valores.add(valorP2);
+		valores.add(valorSBF);
+		valores.add(valorP1);
+		
+		
 		System.out.println("\n==============================================================");
 		System.out.println("\nVocê possui filhos menores de 18 anos?: ");
 		System.out.println("1 -  Sim");
@@ -124,7 +141,7 @@ public class Pessoa  implements Interface {
 			try {
 			System.out.println("\n==============================================================");
 			System.out.println("Senhore " + getNome() + ", ");
-			System.out.println("Você tem direito ao auxílio e o valor é de R$ 375,00.");
+			System.out.println(valores.get(0));
 			
 			} catch (Exception e){
 				System.out.println("Desculpe, algo deu errado. Tente novamente");
@@ -133,17 +150,17 @@ public class Pessoa  implements Interface {
 		else if(getNumDePessoas()>=2 ) {
 			System.out.println("\n==============================================================");
 			System.out.println("Senhore " + getNome() + ", ");
-			System.out.println("Você tem direito ao auxílio e o valor é de R$ 250,00.");
+			System.out.println(valores.get(1));
 		}
 		else if(getNumDePessoas() < 2 && getRecebeBolsa() == 1){
 			System.out.println("\n==============================================================");
 			System.out.println("Senhore " + getNome() + ", ");
-			System.out.println("Pessoas solteiras, sem filhos, não recebem bolsa família.");
+			System.out.println(valores.get(2));
 			
 		} else {
 			System.out.println("\n==============================================================");
 			System.out.println("Senhore " + getNome() + ", ");
-			System.out.println("Você tem direito ao auxílio e o valor é de R$ 150,00.");
+			System.out.println(valores.get(3));
 		}
 		
 	}
