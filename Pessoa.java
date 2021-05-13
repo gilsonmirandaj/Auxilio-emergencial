@@ -2,18 +2,13 @@ package classes;
 
 import java.util.Scanner;
 
-public class Pessoa implements Interface{
-	
-	/*Essa classe tem o registro básico da pessoa
-	 * Ela puxa a interface e faz o registro geral da pessoa
-	 * 
-	 */
-	
+public class Pessoa  implements Interface {
 	
 	// Atributos
 	private String nome;
 	private int idade, numDePessoas;
 	private char sexo, recebeBolsa, filhos, estadoCivil;
+
 
 	Scanner ler = new Scanner(System.in);
 		
@@ -77,6 +72,7 @@ public class Pessoa implements Interface{
 		System.out.println("\nDigite seu nome completo: ");
 		setNome(ler.next());
 	}
+	
 	public void idade() {
 		System.out.println("\n=============================");
 		System.out.println("\nDigite sua idade: ");
@@ -129,11 +125,12 @@ public class Pessoa implements Interface{
 			System.out.println("\n==============================================================");
 			System.out.println("Senhore " + getNome() + ", ");
 			System.out.println("Você tem direito ao auxílio e o valor é de R$ 375,00.");
+			
 			} catch (Exception e){
 				System.out.println("Desculpe, algo deu errado. Tente novamente");
 			}
 		} 
-		else if(getNumDePessoas() >= 2 ) {
+		else if(getNumDePessoas()>=2 ) {
 			System.out.println("\n==============================================================");
 			System.out.println("Senhore " + getNome() + ", ");
 			System.out.println("Você tem direito ao auxílio e o valor é de R$ 250,00.");

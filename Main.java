@@ -37,8 +37,9 @@ public class Main {
 
 		} else {
 			
-			p.sexo();
 			nrb.tipoTrabalho();
+			p.numPessoas();
+			p.sexo();
 			nm.renda();
 			p.recebeAuxilio();
 
@@ -47,7 +48,7 @@ public class Main {
 		aniver.leitura();
 		aniver.mes();
 
-		/* Fechamento e Créditos
+		/*Créditos
 		System.out.println("========================================================");
 		System.out.println("=                   CRÉDITOS                           =");
 		System.out.println("=   Gilson, João, Júlia, Lucas, Vitória e Walisson     =");
