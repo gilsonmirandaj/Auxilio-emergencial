@@ -12,7 +12,7 @@
 
 Conheça o **JavaAuxilia**, o programa que vai informar a população sobre os seus **direitos**. Nossa missão é realizar a **consulta**, a partir de seus dados, para descobrir se você tem direito ao** benefício do Auxílio Emergencial**. Além disso, indicaremos o dia que você deverá ir a uma **agência** da Caixa Econômica Federal.
 
-Juntos, vamos** informar** para alentar e** reduzir aglomerações**. Venha com a gente!
+Juntos, vamos **informar** para alentar e **reduzir aglomerações**. Venha com a gente!
 
 
 
@@ -38,19 +38,22 @@ Juntos, vamos** informar** para alentar e** reduzir aglomerações**. Venha com 
 
 ### Funcionalidades técnicas:
 
-⦁	Formulação de classes específicas aos diferentes tipos de público e possibilidade de alteração facilitada para adequação de novas exigências.
+-	Formulação de classes específicas aos diferentes tipos de público e possibilidade de alteração facilitada para adequação de novas exigências.
 
-⦁	Estrutura de integração na “Main” com instanciação de métodos para melhor organização e futuras adições ao projeto.
+-	Estrutura de integração na “Main” com instanciação de métodos para melhor organização e futuras adições ao projeto.
 
-⦁	Backend completo para a início de estruturação de Front-End.
+-	Backend completo para a início de estruturação de Front-End.
 
-⦁	Implementação de auxiliares como “Exceptions” para auxílio de testes e reparo de erros.
+-	Implementação de auxiliares como “Exceptions” para auxílio de testes e reparo de erros.
 
 <br><br>
+<p align=center>
+  <img src="https://i.ibb.co/0yVmYd2/Capturar.png">
+ <br><br>
+ Figura de exemplificação da Main e classes à direita.
 
-![](https://i.ibb.co/0yVmYd2/Capturar.png)
+<p/>
 
-Figura de exemplificação da Main e classes à direita.
 
 
 
