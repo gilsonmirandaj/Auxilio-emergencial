@@ -51,7 +51,7 @@ public class Main {
 		/*Créditos
 		System.out.println("========================================================");
 		System.out.println("=                   CRÉDITOS                           =");
-		System.out.println("=   Gilson, João, Júlia, Lucas, Vitória e Walisson     =");
+		System.out.println("=   Gilson, João, Júlia, Lucas, Victória e Walisson     =");
 		System.out.println("=                Turma 23 - Generation Brasil          =");
 		System.out.println("========================================================");
 		*/
