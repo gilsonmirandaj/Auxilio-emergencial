@@ -48,8 +48,7 @@ Juntos, vamos** informar** para alentar e** reduzir aglomerações**. Venha com 
 
 <br><br>
 
-**Figura de exemplificação da Main e classes à direita.
-**
+Figura de exemplificação da Main e classes à direita.
 ![](https://i.ibb.co/0yVmYd2/Capturar.png)
 
 
